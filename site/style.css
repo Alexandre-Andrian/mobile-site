@@ -46,11 +46,10 @@ body {
     margin: 10px;
 }
 .home > a:hover {
-    
     text-decoration: underline;
     border-radius: 6px;
     transition: 0.2s;
-    color: rgba(37, 197, 37, 0.87);
+    color: rgba(101, 139, 101, 0.87);
 }
 p {
     line-height: 1.7em;
@@ -62,7 +61,7 @@ p {
 main {
     background-color: white;
     max-width: 95%;
-    height: 3022.1px;
+    height: 4361px;
     padding: 4px;
     margin: auto;
     border-radius: 5px;
@@ -96,28 +95,36 @@ span > a:hover {
     text-decoration: underline;
 }
 .imagem {
-    
-    height: 195px; /* Mantém proporção */
-    
-    margin-left: 725px;
+   
+    height: auto; /* Mantém proporção */
+    display: block;
+    margin: auto;
     width: 300px;
 }
-
- iframe {
-    
-    width: 98%;
-    height: 720px;
-    padding: 10px;
-    margin: auto;
-    
+.video {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.482);
+    max-width: 100%; /* Ajusta ao tamanho do contêiner */
+    margin: 20px auto;
+    box-shadow: 2px 2px 12px black;
+    position: relative;
     justify-content: center;
+    padding-top: 56.25%; /* Proporção 16:9 */
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    margin: auto;
+    width: 500px;
+    height: 500px;
 }
 .footer {
     background-color: black;
     text-align: center;
     color: white;
     padding: 10px;
-    width: 93.4vw;
     
 }
 .especial {
@@ -141,11 +148,11 @@ span > a:hover {
 
     main {
         padding: 10px;
-        height: 3610px;
     }
 
     .imagem {
-        width: 100%; /* Imagem ocupa toda a largura */
+        width: 98%; /* Imagem ocupa toda a largura */
+        margin: auto;
     }
 
     #principal {
