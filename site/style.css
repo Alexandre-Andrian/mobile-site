@@ -96,9 +96,9 @@ span > a:hover {
 }
 .imagem {
     
-    height: 300px; /* Mantém proporção */
+    height: 195px; /* Mantém proporção */
     
-    margin: auto;
+    margin-left: 725px;
     width: 300px;
 }
 .video {
