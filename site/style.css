@@ -46,10 +46,11 @@ body {
     margin: 10px;
 }
 .home > a:hover {
+    
     text-decoration: underline;
     border-radius: 6px;
     transition: 0.2s;
-    color: rgba(101, 139, 101, 0.87);
+    color: rgba(37, 197, 37, 0.87);
 }
 p {
     line-height: 1.7em;
