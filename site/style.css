@@ -95,10 +95,11 @@ span > a:hover {
     text-decoration: underline;
 }
 .imagem {
-    max-width: 100%; /* Ajusta ao tamanho do contêiner */
-    height: auto; /* Mantém proporção */
-    display: block;
+    
+    height: 300px; /* Mantém proporção */
+    
     margin: auto;
+    width: 300px;
 }
 .video {
     border-radius: 10px;
